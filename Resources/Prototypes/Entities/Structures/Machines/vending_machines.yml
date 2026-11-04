@@ -1266,6 +1266,8 @@
     radius: 1.5
     energy: 3.0
     color: "#9dc5c9"
+  - type: AccessReader
+    access: [ [ "Maintenance" ] ]
 
 - type: entity
   parent: VendingMachine
@@ -1327,6 +1329,8 @@
     radius: 1.5
     energy: 3.0
     color: "#d4ab33"
+  - type: AccessReader
+    access: [["Maintenance"]]
 
 - type: entity
   parent: VendingMachine
